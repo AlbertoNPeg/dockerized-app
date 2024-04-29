@@ -1,3 +1,4 @@
-import "./app.css";
+import ReactDOM from 'react-dom/client'
+const root = ReactDOM.createRoot(document.getElementById('root'))
 
-console.log("Happy coding !!");
+root.render("Hola desde React21231")
