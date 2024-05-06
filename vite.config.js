@@ -8,7 +8,7 @@ export default defineConfig({
         symfonyPlugin({viteDevServerHostname: 'localhost'}),
     ],
     server: {
-        host: '0.0.0.0'
+        host: '0.0.0.0',
     },
     build: {
         rollupOptions: {

@@ -1,4 +1,4 @@
 import ReactDOM from 'react-dom/client'
 const root = ReactDOM.createRoot(document.getElementById('root'))
 
-root.render("Hola desde React21231")
+root.render("Hola desde vite!!!!!")
