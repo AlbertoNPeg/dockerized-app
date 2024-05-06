@@ -44,6 +44,7 @@
         "symfony/yaml": "6.4.*",
         "twig/extra-bundle": "^2.12|^3.0",
         "twig/twig": "^2.12|^3.0",
+        "pentatrion/vite-bundle": "^v6.4.4",
 
         "stevenmaguire/oauth2-keycloak": "^4.0",
         "knpuniversity/oauth2-client-bundle": "^2.15"

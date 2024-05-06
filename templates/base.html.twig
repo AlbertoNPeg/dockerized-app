@@ -5,8 +5,16 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
         <title>{% block title %}dockerized-app{% endblock %}</title>
         <link rel="icon" href="#" type="image/svg+xml">
+        {% block stylesheets %}
+            {{ vite_entry_link_tags('app') }}
+        {% endblock %}
+
+        {% block javascripts %}
+            {{ vite_entry_script_tags('app', {dependency:'react'}) }}
+        {% endblock %}
     </head>
     <body>
-        <div id="root">HOLA</div>
+        <div>Hola desde twig</div>
+        <div id="root" />
     </body>
 </html>
